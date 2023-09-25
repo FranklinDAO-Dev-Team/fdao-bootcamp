@@ -1,0 +1,15 @@
+{
+    "attributes" : [
+        {
+            "trait_type" : "Shirt",
+            "value" : "White"
+        },
+        {
+            "trait_type" : "Accessory",
+            "value" : "Glasses"
+        }
+    ],
+    "description" : "A Family Guy",
+    "image" : "ipfs://Qmez3FMpzECpAHPZ7vyRsUEnDvr4CDgRwCpYjrhVDS7zog",
+    "name" : "Peter Griffin"
+}
