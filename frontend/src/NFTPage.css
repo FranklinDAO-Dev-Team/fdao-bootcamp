@@ -1,0 +1,30 @@
+.full-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: purple;
+    padding: 1rem;
+}
+
+.image {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+input {
+    border: solid;
+    border-color: black;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
