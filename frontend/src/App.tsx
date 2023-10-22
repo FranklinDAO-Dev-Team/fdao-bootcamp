@@ -3,6 +3,7 @@ import HomePage from "./HomePage"
 import "./App.css"
 import NFTPage from "./NFTPage"
 import StartAuctionPage from "./StartAuctionPage"
+import ConnectWalletPage from "./ConnectWalletPage"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" Component={HomePage} />
         <Route path="/start-auction" Component={StartAuctionPage}/>
         <Route path="/:id" Component={NFTPage} />
+        <Route path="/connect-wallet" Component={ConnectWalletPage} />
       </Routes>
     </BrowserRouter>
     </div>

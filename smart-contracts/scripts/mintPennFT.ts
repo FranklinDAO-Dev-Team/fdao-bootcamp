@@ -6,6 +6,7 @@ async function main() {
   const pennFT = await ethers.getContractAt("PennFT", NFT_CONTRACT_ADDRESS || '');
 
   await pennFT.MintNFT(PUBLIC_KEY || '', IPFS_URI || '');    
+  console.log(await pennFT.numTokens());
 }
 
 main().catch((error) => {

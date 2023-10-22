@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract PennFT is ERC721URIStorage, Ownable {
-    uint256 numTokens = 0;
+    uint256 public numTokens = 0;
 
     constructor() ERC721("PennFT", "PFT") {}
     

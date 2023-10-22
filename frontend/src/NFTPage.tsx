@@ -1,6 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import "./NFTPage.css"
+import { useEffect } from "react";
 
 function NFTPage() {
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (!window.ethereum.isConnected()) {
+            navigate('/connect-wallet');
+        }
+    }, []);
+
     return (
         <div className='full-container'>
             <div className="image-container">
